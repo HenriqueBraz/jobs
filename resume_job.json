@@ -1,0 +1,26 @@
+{
+	"full_name": "Henrique Keller Braz",
+	"email": "hbraz9@gmail.com",
+	"mobile_phone": "+55 (11) 963-446-817",
+	"age": 39,
+	"home_address": "Rua Alencar Araripe 1145, Sacoma",
+	"start_date": 1594482820,
+	"opportunity_tag": "dev_intern_200",
+	"past_jobs_experience": "I already knew C for microcontrollers in my previous years as an electronics technician, then migrating to development was easy. During this years as developer, I had the opportunity to work developing parser and sending emails, chatbot for whatsapp, MySQL, MongoDB and also a little as front-ender, using Bootstrap. I am currently developing in Python using Flask. But I am interested in learning other languages and technologies!",
+	"degrees": [{
+		"institution_name": "PUC RS",
+		"degree_name": "Software Engineer",
+		"begin_date": 1483228800,
+		"end_date": 1638316800
+	}],
+
+	"programming_skills": ["python", "java", "C"],
+	"database_skills": ["mysql", "mongoDB"],
+	"hobbies": ["music", "martial arts"],
+	"why": "I believe that my goals and skills are perfectly aligned with those of SciCrop, because I know the physical part (sensors, microcontrollers, etc.) and the parts of the software (Python, Mysql etc.), thus allowing me to have a good view about the challenges that SciCrop has",
+	"git_url_repositories": "https://github.com/HenriqueBraz/jobs"
+}
+
+
+
+
