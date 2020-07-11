@@ -26,7 +26,7 @@ if __name__ == '__main__':
     with open('./resume_job.json') as f:
         resume = json.load(f)
 
-    result = sender_job('https://engine.scicrop.com/scicrop-engine-web/api/v1/jobs/post_resume', resume)
+    sender_job('https://engine.scicrop.com/scicrop-engine-web/api/v1/jobs/post_resume', resume)
 
 
 
