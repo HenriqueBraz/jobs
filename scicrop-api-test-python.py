@@ -5,7 +5,7 @@ import json
 
 def sender_job(url, resume):
     """
-    :param post_resume: json_format (dict), resume to send
+    :param resume: json_format (dict), resume to send
     :param url: str, url
     """
     try:
@@ -27,6 +27,7 @@ if __name__ == '__main__':
         resume = json.load(f)
 
     sender_job('https://engine.scicrop.com/scicrop-engine-web/api/v1/jobs/post_resume', resume)
+
 
 
 
