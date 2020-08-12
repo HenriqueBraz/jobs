@@ -15,7 +15,6 @@ def sender_job(url, resume):
         request.raise_for_status()
         logging.info(request.status_code)
         logging.info('done!')
-        return request.status_code
     except Exception as e:
         logging.error('sender_job error: ' + str(e) + '\n')
 
