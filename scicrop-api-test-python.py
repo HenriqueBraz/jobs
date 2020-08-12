@@ -13,8 +13,9 @@ def sender_job(url, resume):
         headers = {'Content-Type': 'application/json'}
         request = requests.post(url, json=resume, headers=headers)
         request.raise_for_status()
-        logging.info(request.status_code)
         logging.info('done!')
+        logging.info(request.status_code)
+        logging.info(request.content)
     except Exception as e:
         logging.error('sender_job error: ' + str(e) + '\n')
 
